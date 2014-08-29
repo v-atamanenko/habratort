@@ -5,15 +5,15 @@ Element.prototype.hasClass = function(className) {
 
 //Переменные
 var isUserLoggedIn = false;
-if (window.user_type != 'guest') {
+if (document.getElementsByClassName('nav_panel')[0].getElementsByTagName('a')[1].hasClass('tab_user') == true) {
 	isUserLoggedIn = true;
 }
 
 if (isUserLoggedIn == true) {
-	var userName = window.username;
+	var userName = document.getElementsByClassName('nav_panel')[0].getElementsByTagName('a')[1].getAttribute("title");
 	var userLink = 'http://habrahabr.ru/users/' + userName + '/';
 	var settingsLink = 'https://habrahabr.ru/auth/settings/';
-	var logoutLink = 'http://habrahabr.ru/logout/' + userName + '/361393742/';
+	var logoutLink = document.getElementById('settings_tab').getElementsByClassName('exit')[0].href;
 	var trackerLink = 'http://habrahabr.ru/tracker/';
 	var dialogsLink = 'http://habrahabr.ru/conversations/';
 	var favLink = 'http://habrahabr.ru/users/' + userName + '/favorites/';
