@@ -1,0 +1,42 @@
+/*
+     FILE ARCHIVED ON 14:41:54 Jul 31, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 9:56:24 Aug 29, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+
+.hub_header{overflow:hidden;padding-top:8px;padding-bottom:10px;margin-top:-17px;}
+.hub_header h2{float:left;}
+.hub_header h2 a.hub_title{font-size:36px;color:#000;text-decoration:none;display:block;float:left;}
+.hub_header h2 .profiled_hub{display:block;float:left;cursor: help;width: 16px;height: 16px;margin-left: 5px;margin-top: 10px;background: transparent url(http://blackbloodm.org/oldhabr/data/i/icon_asterisk_24.png) left top no-repeat;}
+.hub_header h2 .edit{display:block;float:left;margin-left: 10px;margin-top:15px;border:1px solid #ccc;}
+.hub_header h2 .new{color:green;display:block;float:left;vertical-align: top;font-size:12px;margin-left:10px;}
+.hub_header .hub-index{float:left;margin-left: 20px;text-align:center;margin-top:-8px;}
+.hub_header .hub-index .label{font-size:10px;color:#ccc;margin:0 auto;}
+.hub_header .hub-index .value{font-size:36px;color:#CC66CC;line-height:36px;}
+
+/* Hubs list */
+.hubs_list .searched-item{background:#fffacd}
+.hubs_list .hubs_suggest{padding-top:6px;margin-bottom:30px;position:relative}
+.hubs_list .hubs_suggest input{font-size:22px;font-family:verdana,sans-serif;line-height:30px;width:100%;margin:0;padding:0 5px;border:1px solid #d9d9d9;-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#fff;text-shadow:none;outline:none;border-radius:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none}
+.hubs_list .hubs_suggest.loading:after{content:"   ";width:16px;height:16px;background:url(http://blackbloodm.org/oldhabr/data/images/ajax-loader.gif) no-repeat center center;position:absolute;right:3px;top:5px;padding:5px;display:block}
+.hubs_list .hubs_head{overflow:hidden;margin-bottom:5px;color:#999;font-size:12px;font-family:Arial,sans-serif}
+.hubs_list .hubs_head .habraindex{float:right;width:100px;margin-bottom:1px}
+.hubs_list .hubs_head .category{float:right;width:200px}
+.hubs_list .hubs_head .title{margin-right:300px;margin-bottom:1px}
+.hubs .hub{position:relative;margin-bottom:20px}
+.hubs .hub .info{margin-right:100px}
+.hubs .hub .info .title{font-family:Verdana,sans-serif;font-size:24px;float:left;margin-right:10px}
+.hubs .hub .info .title a{color:#999}
+.hubs .hub .info .title .profiled_hub{cursor:help;display:inline-block;padding:0 8px;height:16px;margin-left:3px;font-size:19px;background:transparent url(http://blackbloodm.org/oldhabr/data/images/icon_asterisk_16.png) left top no-repeat;vertical-align:top}
+.hubs .hub .info .title .new{font-size:11px;color:green;vertical-align:top}
+.hubs .hub .info .buttons{float:left;display:none;margin-top:5px}
+.hubs .hub:hover .info .buttons{display:block}
+.hubs .hub .info .stat{color:#999;font-size:12px;line-height:190%}
+.hubs .hub .info .stat a{color:#999;text-decoration:none}
+.hubs .hub .info .stat a:hover{text-decoration:underline}
+.hubs .hub .common_tags{color:#7d7c7c;font-family:Tahoma,sans-serif;font-size:13px}
+.hubs .hub .habraindex{width:100px;float:right;color:#c6c;font-family:Verdana,sans-serif;font-size:19px;padding-top:6px}
+.hubs .hub.subscribed .info .title a{color:#6c9471}
