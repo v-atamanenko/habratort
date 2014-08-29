@@ -5,12 +5,12 @@ Element.prototype.hasClass = function(className) {
 
 //Переменные
 var isUserLoggedIn = false;
-if (document.getElementsByClassName('nav_panel')[0].getElementsByTagName('a')[1].hasClass('tab_user') == true) {
+if (window.user_type != 'guest') {
 	isUserLoggedIn = true;
 }
 
 if (isUserLoggedIn == true) {
-	var userName = document.getElementsByClassName('nav_panel')[0].getElementsByTagName('a')[1].getAttribute("title");
+	var userName = window.username;
 	var userLink = 'http://habrahabr.ru/users/' + userName + '/';
 	var settingsLink = 'https://habrahabr.ru/auth/settings/';
 	var logoutLink = 'http://habrahabr.ru/logout/' + userName + '/361393742/';
@@ -46,7 +46,7 @@ if (window.location.href.indexOf("feed") >= 0) {
 	compsActive = "active";
 }
 
-var oldSchoolMainMenu = '<div class="main_menu"><a href="http://habrahabr.ru/feed/all/" class="'+ feedActive + '">лента</a><a href="http://habrahabr.ru/posts/top/" class="'+ postsActive + '">посты</a><a href="http://toster.ru/">q&amp;a</a><a href="http://habrahabr.ru/sandbox/" class="'+ sandyActive + '">песочница</a><a href="http://habrahabr.ru/hubs/" class="'+ hubsActive + '">хабы</a><a href="http://habrahabr.ru/companies/" class="'+ compsActive + '">компании</a></div>';
+var oldSchoolMainMenu = '<div class="main_menu"><a href="http://habrahabr.ru/feed/all/" class="'+ feedActive + '">лента</a><a href="http://habrahabr.ru/posts/top/" class="'+ postsActive + '">посты</a><a href="http://toster.ru/">q&a</a><a href="http://habrahabr.ru/sandbox/" class="'+ sandyActive + '">песочница</a><a href="http://habrahabr.ru/hubs/" class="'+ hubsActive + '">хабы</a><a href="http://habrahabr.ru/companies/" class="'+ compsActive + '">компании</a></div>';
 
 if (isUserLoggedIn == false) {
 	var oldSchoolHeader = '<div id="header"><div class="userpanel silver"><a href="http://habrahabr.ru/login/" class="login">войти</a> <a href="http://habrahabr.ru/register/">зарегистрироваться</a></div><a class="logo" href="http://habrahabr.ru/" title="На главную страницу"></a><div class="search"><form id="search_form" name="search" method="get" action="http://habrahabr.ru/search/"><input type="submit" value=""><input type="text" name="q" x-webkit-speech="" speech=""></form></div>' + oldSchoolMainMenu + '</div>';
