@@ -161,18 +161,20 @@
 .post .infopanel .facebook a{opacity: 0.5;display:block;width:14px;height:16px;background:url("http://blackbloodm.org/oldhabr/data/i/bg-icon-facebook.png") no-repeat scroll 0 0 transparent;}
 .post .infopanel .facebook a:hover{opacity:1;}
 
-.post .infopanel .vkontakte{float:left;margin-right:5px;margin-top:1px;padding:5px 0;}
-.post .infopanel .vkontakte a{opacity: 0.5;display:block;width:14px;height:16px;background:url("http://blackbloodm.org/oldhabr/data/i/bg-icon-vkontakte.png") no-repeat scroll 0 0 transparent;}
-.post .infopanel .vkontakte a:hover{opacity:1;}
+.post .infopanel .vkontakte { float:left;margin-right:5px;margin-top:1px;padding:5px 0;}
+.post .infopanel .vkontakte a { opacity: 0.5;display:block;width:14px;height:16px;background:url("http://blackbloodm.org/oldhabr/data/i/bg-icon-vkontakte.png") no-repeat scroll 0 0 transparent;}
+.post .infopanel .vkontakte a:hover { opacity:1;}
 
-.post .infopanel .googleplus{float:left;margin-right:15px;margin-top:1px;padding:5px 0;}
-.post .infopanel .googleplus a{opacity: 0.5;display:block;width:14px;height:16px;background:url("http://blackbloodm.org/oldhabr/data/i/bg-icon-googleplus.png") no-repeat scroll 0 0 transparent;}
-.post .infopanel .googleplus a:hover{opacity:1;}
+.post .infopanel .googleplus { float:left;margin-right:15px;margin-top:1px;padding:5px 0;}
+.post .infopanel .googleplus a { opacity: 0.5;display:block;width:14px;height:16px;background:url("http://blackbloodm.org/oldhabr/data/i/bg-icon-googleplus.png") no-repeat scroll 0 0 transparent;}
+.post .infopanel .googleplus a:hover { opacity:1;}
+
+.post .infopanel .share { float: left; overflow: hidden; margin-left: 19px; }
   
-.post .infopanel .author{position:relative;float:left;line-height:28px;margin-left:10px;margin-right:25px;font-weight: 700;background: url("http://blackbloodm.org/oldhabr/data/i/bg-user2.gif") no-repeat scroll 0 7px transparent;padding-left: 17px;}
-.post .infopanel .author a{font-size:9px;color:#CF0000;text-decoration:none;}
-.post .infopanel .author a:hover{color:#f17d7d;}
-.post .infopanel .author .rating{font-size:9px;color:#C6C;font-weight: bold;cursor: help;position:absolute;top:-5px;left:100%;white-space: nowrap;}
+.post .infopanel .author { position:relative;float:left;line-height:28px;margin-left:10px;margin-right:25px;font-weight: 700;background: url("http://blackbloodm.org/oldhabr/data/i/bg-user2.gif") no-repeat scroll 0 7px transparent;padding-left: 17px;}
+.post .infopanel .author a { font-size:9px;color:#CF0000;text-decoration:none; }
+.post .infopanel .author a:hover { color:#f17d7d; }
+.post .infopanel .author .rating { font-size:9px;color:#C6C;font-weight: bold;cursor: help;position:absolute;top:-5px;left:100%;white-space: nowrap;}
 .post .infopanel .author a.googleplus_profile{color:#eee;}
 .post .infopanel .author a.googleplus_profile:hover{color:blue;}
 
