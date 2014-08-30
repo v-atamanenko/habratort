@@ -82,7 +82,12 @@ var styles = document.getElementsByTagName('link');
     for (index = 0; index < styles.length; ++index) {
     styles[index].parentNode.removeChild(styles[index]);
 }
-//FIXME: По какой-то непонятной причине приходится удалять стили дважды, с первого раза не получается.
+
+var styles = document.getElementsByTagName('link');
+    for (index = 0; index < styles.length; ++index) {
+    styles[index].parentNode.removeChild(styles[index]);
+}
+
 var styles = document.getElementsByTagName('link');
     for (index = 0; index < styles.length; ++index) {
     styles[index].parentNode.removeChild(styles[index]);
