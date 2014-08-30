@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name        Хабраторт
+// @description Возврат старого дизайна Хабрахабра
+// @author      bbmm
+// @version     1.0
+// @include     http://habrahabr.ru/*
+// @match       http://habrahabr.ru/*
+// ==/UserScript==
+
 //Функции
 Element.prototype.hasClass = function(className) {
     return this.className && new RegExp("(^|\\s)" + className + "(\\s|$)").test(this.className);
@@ -9,15 +18,24 @@ if (document.getElementsByClassName('nav_panel')[0].getElementsByTagName('a')[1]
 	isUserLoggedIn = true;
 }
 
+var isReadOnly = false;
+if (document.getElementsByClassName('nav_panel')[0].getElementsByTagName('a')[4]) {
+	if (document.getElementsByClassName('nav_panel')[0].getElementsByTagName('a')[4].getAttribute("title") == 'Новая публикация в песочницу') {
+		isReadOnly = true;
+	}
+}
+
 if (isUserLoggedIn == true) {
 	var userName = document.getElementsByClassName('nav_panel')[0].getElementsByTagName('a')[1].getAttribute("title");
 	var userLink = 'http://habrahabr.ru/users/' + userName + '/';
 	var settingsLink = 'https://habrahabr.ru/auth/settings/';
 	var logoutLink = document.getElementById('settings_tab').getElementsByClassName('exit')[0].href;
 	var trackerLink = 'http://habrahabr.ru/tracker/';
-	var dialogsLink = 'http://habrahabr.ru/conversations/';
 	var favLink = 'http://habrahabr.ru/users/' + userName + '/favorites/';
-	var votes = document.getElementById('user_tab').getElementsByClassName('text')[0].innerHTML;
+	if (isReadOnly == false) {
+		var dialogsLink = 'http://habrahabr.ru/conversations/';
+		var votes = document.getElementById('user_tab').getElementsByClassName('text')[0].innerHTML;
+	}	
 }
 
 
@@ -50,8 +68,10 @@ var oldSchoolMainMenu = '<div class="main_menu"><a href="http://habrahabr.ru/fee
 
 if (isUserLoggedIn == false) {
 	var oldSchoolHeader = '<div id="header"><div class="userpanel silver"><a href="http://habrahabr.ru/login/" class="login">войти</a> <a href="http://habrahabr.ru/register/">зарегистрироваться</a></div><a class="logo" href="http://habrahabr.ru/" title="На главную страницу"></a><div class="search"><form id="search_form" name="search" method="get" action="http://habrahabr.ru/search/"><input type="submit" value=""><input type="text" name="q" x-webkit-speech="" speech=""></form></div>' + oldSchoolMainMenu + '</div>';
-} else {
+} else if (isUserLoggedIn == true && isReadOnly == false) {
 	var oldSchoolHeader = '<div id="header"><div class="userpanel silver"><a href="' + userLink + '" class="username">' + userName + '</a> <a href="' + settingsLink + '" class="nav-settings">настройки</a> <a href="' + logoutLink + '">выход</a><br><a href="'+ trackerLink +'" class="trackerLink">трекер</a> <a href="'+dialogsLink +'" class="dialogsLink">диалоги</a> <a href="'+ favLink +'" class="favLink">избранное</a><br>'+ votes + '</div><a class="logo" href="http://habrahabr.ru/" title="На главную страницу"></a><div class="search"><form id="search_form" name="search" method="get" action="http://habrahabr.ru/search/"><input type="submit" value=""><input type="text" name="q" x-webkit-speech="" speech=""></form></div>' + oldSchoolMainMenu + '</div>';
+} else if (isReadOnly == true) {
+	var oldSchoolHeader = '<div id="header"><div class="userpanel silver"><a href="' + userLink + '" class="username">' + userName + '</a><sup><a href="/sandbox/add" class="charge">read-only</a></sup> <a href="' + settingsLink + '" class="nav-settings">настройки</a> <a href="' + logoutLink + '">выход</a><br><a href="'+ trackerLink +'" class="trackerLink">трекер</a> <a href="'+ favLink +'" class="favLink">избранное</a></div><a class="logo" href="http://habrahabr.ru/" title="На главную страницу"></a><div class="search"><form id="search_form" name="search" method="get" action="http://habrahabr.ru/search/"><input type="submit" value=""><input type="text" name="q" x-webkit-speech="" speech=""></form></div>' + oldSchoolMainMenu + '</div>';
 }
 
 var inner = document.getElementsByClassName('inner')[0].innerHTML;
