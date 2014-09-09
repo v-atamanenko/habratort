@@ -8,13 +8,13 @@
 // ==/UserScript==
 
 //Функции
-Element.prototype.hasClass = function(className) {
-    return this.className && new RegExp("(^|\\s)" + className + "(\\s|$)").test(this.className);
-};
+function hasClass(element, cls) {
+    return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+}
 
 //Переменные
 var isUserLoggedIn = false;
-if (document.getElementsByClassName('nav_panel')[0].getElementsByTagName('a')[1].hasClass('tab_user') == true) {
+if (hasClass(document.getElementsByClassName('nav_panel')[0].getElementsByTagName('a')[1], 'tab_user') == true) {
 	isUserLoggedIn = true;
 }
 
