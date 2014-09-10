@@ -96,12 +96,35 @@ while(styles.length > 0) {
 }
 
 //Добавляем измененный старый стиль, удаляем меню слева, логотипы под футером и название страницы
-document.getElementsByTagName('head')[0].innerHTML += '<link type="text/css" rel="stylesheet" href="http://blackbloodm.org/oldhabr/data/mega.css">';
+document.getElementsByTagName('head')[0].innerHTML += '<link type="text/css" rel="stylesheet" href="http://blackbloodm.org/oldhabr/data/mega5.css">';
 
 document.getElementById('navbar').style.display = 'none';
 document.getElementById('navbar_overlay').style.display = 'none';
 
 if (document.getElementsByClassName('page_head')[0]) {document.getElementsByClassName('page_head')[0].style.display = 'none'; }
-document.getElementsByClassName('footer_logos')[0].style.display = 'none';
+if (document.getElementsByClassName('footer_logos')[0]) { document.getElementsByClassName('footer_logos')[0].style.display = 'none'; }
 
 if (document.getElementsByClassName('bottom_promo_blocks')[0]) {document.getElementsByClassName('bottom_promo_blocks')[0].style.display = 'none';}
+
+if (document.getElementsByClassName('submit')[0]) { document.getElementsByClassName('submit')[0].disabled = false; }
+if (document.getElementsByClassName('preview')[0]) { document.getElementsByClassName('preview')[0].disabled = false; }
+if (document.getElementsByClassName('remove_button')[0]) { document.getElementsByClassName('remove_button')[0].disabled = false; }
+if (document.getElementsByClassName('mark_read_button')[0]) { document.getElementsByClassName('mark_read_button')[0].disabled = false; }
+
+var votings = document.getElementsByClassName('voting');
+var i = 0;
+
+for (;;) {
+	if (i == votings.length) break;
+	votings[i].appendChild(votings[i].getElementsByClassName('minus')[0]);
+	i++;
+}
+
+//Oh, you wanna do this the hard way?! We'll do this the hard way!
+document.body.innerHTML = document.body.innerHTML.replace(/публикация/g, 'пост');
+document.body.innerHTML = document.body.innerHTML.replace(/публикации/g, 'посты');
+document.body.innerHTML = document.body.innerHTML.replace(/публикаций/g, 'постов');
+document.body.innerHTML = document.body.innerHTML.replace(/Публикация/g, 'Пост');
+document.body.innerHTML = document.body.innerHTML.replace(/Публикации/g, 'Посты');
+document.body.innerHTML = document.body.innerHTML.replace(/Публикаций/g, 'Постов');
+document.head.getElementsByTagName('title')[0].innerHTML = document.head.getElementsByTagName('title')[0].innerHTML.replace(/публикации/g, 'посты');
