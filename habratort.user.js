@@ -3,8 +3,8 @@
 // @description Возврат старого дизайна Хабрахабра
 // @author      bbmm
 // @version     1.0
-// @include     http://habrahabr.ru/*
-// @match       http://habrahabr.ru/*
+// @include     http*://habrahabr.ru/*
+// @match       http*://habrahabr.ru/*
 // ==/UserScript==
 
 //Функции
@@ -96,7 +96,7 @@ while(styles.length > 0) {
 }
 
 //Добавляем измененный старый стиль, удаляем меню слева, логотипы под футером и название страницы
-document.getElementsByTagName('head')[0].innerHTML += '<link type="text/css" rel="stylesheet" href="http://blackbloodm.org/oldhabr/data/mega5.css">';
+document.getElementsByTagName('head')[0].innerHTML += '<link type="text/css" rel="stylesheet" href="https://bbmm.su/oldhabr/data/mega5.css">';
 
 document.getElementById('navbar').style.display = 'none';
 document.getElementById('navbar_overlay').style.display = 'none';
