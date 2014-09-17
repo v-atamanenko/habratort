@@ -4,7 +4,7 @@
 // @author      bbmm
 // @version     1.0
 // @include     http*://habrahabr.ru/*
-// @match       http*://habrahabr.ru/*
+// @match       *://habrahabr.ru/*
 // ==/UserScript==
 
 //Функции
