@@ -1182,7 +1182,7 @@ ul li a.showmore_items {
 	color: #999999;
 }
 #header .userpanel .not.habrauser-newmail {
-	background: url("http://blackbloodm.org/oldhabr/data/i/icos/new-message.gif") no-repeat scroll 0 2px transparent;
+	background: url("https://habrahabr.ru/i/icos/new-message.gif") no-repeat scroll 0 2px transparent;
 	margin-left: -21px;
 	padding-left: 21px;
 }
@@ -1240,8 +1240,8 @@ ul li a.showmore_items {
 }
 .content_left {
 	float: left;
-	margin-right: 2%;
-	width: 810px;
+	margin-right: 20px;
+	width: 833px;
 }
 .content_left.wide {
 	float: none;
@@ -6166,7 +6166,7 @@ input.loading {
 	margin-left: 135px
 }
 .user_profile .twitter a.icon {
-	background: url(http://habrahabr.ru/images/bg-icon-twitter.gif) no-repeat;
+	background: url(https://habrahabr.ru/images/bg-icon-twitter.gif) no-repeat;
 	width: 20px;
 	height: 20px;
 	float: left;
@@ -6238,7 +6238,7 @@ input.loading {
 	float: left;
 	margin-right: 15px;
 	padding-left: 20px;
-	background: url(http://habrahabr.ru/images/icos/company-small.png) 0 60% no-repeat
+	background: url(https://habrahabr.ru/images/icos/company-small.png) 0 60% no-repeat
 }
 .user_profile .companies_list ul li.no_icon {
 	background: none;
@@ -6257,7 +6257,7 @@ input.loading {
 	float: left;
 	margin-right: 15px;
 	padding-left: 20px;
-	background: url(http://habrahabr.ru/images/bg-user2.gif) 0 50% no-repeat
+	background: url(https://habrahabr.ru/images/bg-user2.gif) 0 50% no-repeat
 }
 .friends_list ul li.no_icon {
 	background: none;
@@ -6279,7 +6279,7 @@ input.loading {
 	float: left;
 	margin-right: 15px;
 	padding-left: 20px;
-	background: url(http://habrahabr.ru/images/icos/blog-small-open.png) 0 60% no-repeat
+	background: url(https://habrahabr.ru/images/icos/blog-small-open.png) 0 60% no-repeat
 }
 .user_profile .hubs_list ul li.no_icon {
 	background: none;
@@ -6330,81 +6330,81 @@ ul li a.showmore_items {
 	opacity: 1
 }
 #people-tags a.author {
-	background-image: url(http://habrahabr.ru/images/tags/author.png)
+	background-image: url(https://habrahabr.ru/images/tags/author.png)
 }
 #people-tags a.star {
-	background-image: url(http://habrahabr.ru/images/tags/star.png)
+	background-image: url(https://habrahabr.ru/images/tags/star.png)
 }
 #people-tags a.legend {
-	background-image: url(http://habrahabr.ru/images/tags/legend.png)
+	background-image: url(https://habrahabr.ru/images/tags/legend.png)
 }
 #people-tags a.oldresident {
-	background-image: url(http://habrahabr.ru/images/tags/oldresident.png)
+	background-image: url(https://habrahabr.ru/images/tags/oldresident.png)
 }
 #people-tags a.commentator {
-	background-image: url(http://habrahabr.ru/images/tags/commentator.png)
+	background-image: url(https://habrahabr.ru/images/tags/commentator.png)
 }
 #people-tags a.podcaster {
-	background-image: url(http://habrahabr.ru/images/tags/podcaster.png)
+	background-image: url(https://habrahabr.ru/images/tags/podcaster.png)
 }
 #people-tags a.translator {
-	background-image: url(http://habrahabr.ru/images/tags/translator.png)
+	background-image: url(https://habrahabr.ru/images/tags/translator.png)
 }
 #people-tags a.statistic {
-	background-image: url(http://habrahabr.ru/images/tags/statistic.png)
+	background-image: url(https://habrahabr.ru/images/tags/statistic.png)
 }
 #people-tags a.humorist {
-	background-image: url(http://habrahabr.ru/images/tags/humorist.png)
+	background-image: url(https://habrahabr.ru/images/tags/humorist.png)
 }
 #people-tags a.habred {
-	background-image: url(http://habrahabr.ru/images/tags/habred.png)
+	background-image: url(https://habrahabr.ru/images/tags/habred.png)
 }
 #people-tags a.nokia_developer {
-	background-image: url(http://habrahabr.ru/images/tags/nokia.png)
+	background-image: url(https://habrahabr.ru/images/tags/nokia.png)
 }
 #people-tags a.unhabred {
-	background-image: url(http://habrahabr.ru/images/tags/unhabred.png)
+	background-image: url(https://habrahabr.ru/images/tags/unhabred.png)
 }
 #people-tags a.troll {
-	background-image: url(http://habrahabr.ru/images/tags/troll.png)
+	background-image: url(https://habrahabr.ru/images/tags/troll.png)
 }
 #people-tags a.evangelist {
-	background-image: url(http://habrahabr.ru/images/tags/evangelist.png)
+	background-image: url(https://habrahabr.ru/images/tags/evangelist.png)
 }
 #people-tags a.reader {
-	background-image: url(http://habrahabr.ru/images/tags/reader.png)
+	background-image: url(https://habrahabr.ru/images/tags/reader.png)
 }
 #people-tags a.special_dvlup {
-	background-image: url(http://habrahabr.ru/images/tags/special_dvlup.png);
+	background-image: url(https://habrahabr.ru/images/tags/special_dvlup.png);
 	width: 122px
 }
 #people-tags a.special_dev3 {
-	background-image: url(http://habrahabr.ru/images/tags/special_dev3.png);
+	background-image: url(https://habrahabr.ru/images/tags/special_dev3.png);
 	width: 111px;
 	margin-left: 10px
 }
 #people-tags a.hp_virtualization {
-	background-image: url(http://habrahabr.ru/images/tags/hp_virtualization.png);
+	background-image: url(https://habrahabr.ru/images/tags/hp_virtualization.png);
 	width: 126px;
 	margin-left: 10px
 }
 #people-tags a.special_frii_znatok {
-	background-image: url(http://habrahabr.ru/images/tags/special_frii-znatok.png);
+	background-image: url(https://habrahabr.ru/images/tags/special_frii-znatok.png);
 	width: 106px;
 	margin-left: 10px
 }
 #people-tags a.special_frii_specialist {
-	background-image: url(http://habrahabr.ru/images/tags/special_frii-specialist.png);
+	background-image: url(https://habrahabr.ru/images/tags/special_frii-specialist.png);
 	width: 143px;
 	margin-left: 10px
 }
 #people-tags a.special_frii_expert {
-	background-image: url(http://habrahabr.ru/images/tags/special_frii-expert.png);
+	background-image: url(https://habrahabr.ru/images/tags/special_frii-expert.png);
 	width: 115px;
 	margin-left: 10px
 }
 #people-tags a.special_wgdc {
-	background-image: url(http://habrahabr.ru/images/tags/special_wgdc.png);
+	background-image: url(https://habrahabr.ru/images/tags/special_wgdc.png);
 	width: 132px;
 	margin-left: 10px
 }
@@ -6435,13 +6435,13 @@ ul li a.showmore_items {
 	color: #284fa2
 }
 #people-tags a.se_gamer {
-	background-image: url(http://habrahabr.ru/images/special/se/tags/gamer.png)
+	background-image: url(https://habrahabr.ru/images/special/se/tags/gamer.png)
 }
 #people-tags a.se_supergamer {
-	background-image: url(http://habrahabr.ru/images/special/se/tags/supergamer.png)
+	background-image: url(https://habrahabr.ru/images/special/se/tags/supergamer.png)
 }
 #people-tags a.se_turbogamer {
-	background-image: url(http://habrahabr.ru/images/special/se/tags/turbogamer.png)
+	background-image: url(https://habrahabr.ru/images/special/se/tags/turbogamer.png)
 }
 #people-tags li.removable {
 	position: relative
@@ -6773,9 +6773,9 @@ ul li a.showmore_items {
 	width: 11px;
 	height: 15px;
 	display: block;
-	float: right;
+	float: left;
 	margin-top: 2px;
-	margin-left: 13px
+	margin-right: 6px;
 }
 .comments_list .comment_item .info .voting .minus {
 	width: 11px;
@@ -6783,45 +6783,45 @@ ul li a.showmore_items {
 	display: block;
 	float: right;
 	margin-top: 2px;
-	margin-left: 7px
+	margin-left: 7px;
 }
 .comments_list .comment_item .info .voting a.plus {
-	background: url("http://blackbloodm.org/oldhabr/data/i/icos/icons_vote_posts.gif?r=2") no-repeat 0px -16px
+	background: url("https://habrahabr.ru/i/icos/icons_vote_posts.gif") no-repeat 0px -16px
 }
 .comments_list .comment_item .info .voting a.minus {
-	background: url("http://blackbloodm.org/oldhabr/data/i/icos/icons_vote_posts.gif?r=2") no-repeat -12px -16px
+	background: url("https://habrahabr.ru/i/icos/icons_vote_posts.gif") no-repeat -12px -16px
 }
 .comments_list .comment_item .info .voting a:hover.plus {
-	background: url("http://blackbloodm.org/oldhabr/data/i/icos/icons_vote_posts.gif?r=2") no-repeat 0px 0px
+	background: url("https://habrahabr.ru/i/icos/icons_vote_posts.gif") no-repeat 0px 0px
 }
 .comments_list .comment_item .info .voting a:hover.minus {
-	background: url("http://blackbloodm.org/oldhabr/data/i/icos/icons_vote_posts.gif?r=2") no-repeat -12px 0px
+	background: url("https://habrahabr.ru/i/icos/icons_vote_posts.gif") no-repeat -12px 0px
 }
 .comments_list .comment_item .info .voting span.plus {
-	background: url("http://blackbloodm.org/oldhabr/data/i/icos/icons_vote_posts.gif?r=2") no-repeat -24px 0px
+	background: url("https://habrahabr.ru/i/icos/icons_vote_posts.gif") no-repeat -24px 0px
 }
 .comments_list .comment_item .info .voting span.minus {
-	background: url("http://blackbloodm.org/oldhabr/data/i/icos/icons_vote_posts.gif?r=2") no-repeat -24px -16px
+	background: url("https://habrahabr.ru/i/icos/icons_vote_posts.gif") no-repeat -24px -16px
 }
 .comments_list .comment_item .info .voting.voted_plus a.plus, .comments_list .comment_item .info .voting.voted_plus span.plus {
-	background: url("http://blackbloodm.org/oldhabr/data/i/icos/icons_vote_posts.gif?r=2") no-repeat 0px 0px
+	background: url("https://habrahabr.ru/i/icos/icons_vote_posts.gif") no-repeat 0px 0px
 }
 .comments_list .comment_item .info .voting.voted_plus a.minus, .comments_list .comment_item .info .voting.voted_plus span.minus {
-	background: url("http://blackbloodm.org/oldhabr/data/i/icos/icons_vote_posts.gif?r=2") no-repeat -24px -16px
+	background: url("https://habrahabr.ru/i/icos/icons_vote_posts.gif") no-repeat -24px -16px
 }
 .comments_list .comment_item .info .voting.voted_minus a.plus, .comments_list .comment_item .info .voting.voted_minus span.plus {
-	background: url("http://blackbloodm.org/oldhabr/data/i/icos/icons_vote_posts.gif?r=2") no-repeat -24px 0px
+	background: url("https://habrahabr.ru/i/icos/icons_vote_posts.gif") no-repeat -24px 0px
 }
 .comments_list .comment_item .info .voting.voted_minus a.minus, .comments_list .comment_item .info .voting.voted_minus span.minus {
-	background: url("http://blackbloodm.org/oldhabr/data/i/icos/icons_vote_posts.gif?r=2") no-repeat -12px 0px
+	background: url("https://habrahabr.ru/i/icos/icons_vote_posts.gif") no-repeat -12px 0px
 }
 .comments_list .comment_item .info .voting .mark {
-	float: right;
+	float: left;
 	color: #a9a9a9;
 	font-weight: bold;
 	padding-top: 2px;
 	font-size: 13px;
-	font-family: Arial, Helvetica, sans-serif
+	font-family: Arial, Helvetica, sans-serif;
 }
 .comments_list .comment_item .info .voting .mark span {
 	color: #a9a9a9
@@ -7084,7 +7084,8 @@ ul li a.showmore_items {
 	width: 32px;
 	position: fixed;
 	top: 50%;
-	opacity: 0.5;
+	right: 0;
+	opacity: .5;
 	background: #999
 }
 #xpanel:hover {
@@ -7094,29 +7095,22 @@ ul li a.showmore_items {
 	color: #666;
 	font-size: 12px;
 	text-decoration: none;
-	padding: 0px 10px;
+	padding: 0 10px;
 	position: absolute;
 	left: 0;
 	top: -15px
 }
-#xpanel .divider {
-	border-top: solid 1px #5c5c5c;
-	border-bottom: solid 1px #ddd;
-	width: 28px;
-	height: 0px;
-	margin: 0 auto
-}
 #xpanel .refresh {
 	display: block;
-	background: url("data:image/gif;base64,R0lGODlhHAA6AOYAAN7yzV+1GajqcajfemC1GkF8E37GRHrDP0t8JG6JWpGWjT17DJHZVnaMZYSSeo7XUnS8OoPORen522GvIur63OT21sTfsIuUhTl1CXTEMo+VikmCHJrgYZjeXpbdXJ3iZEZ6HmO1IeL30Wm8JVSqDpXcW0WFE2qHUpPbWZaYk+f42YnTTJSXkYKQdnKKX6TnbKDlaarKj1itFFqBO1eMLW7ALEaAGZiZl5/kZ1qxE1+DQzt3DDx2DoCPc4TQRmS4H0R5GZzhY32PcGWFTKPnbHrIOn7MP4OtYUuZDLfdmXyObj6BCE6SF3G3OE+GJJDOXYW+V2iuMN/1zlCcE0B3FT53ETh3B1umIIvOVa/QlGe6JGuzL4/FYtDnvZXUYHjHN2uIVLDTk7fUn7PaklR/MsrpsUyKG+P11Njtxsfgs+X318/pu4fBV4rBW2iZQY3LWqDDhHekU12RNFqPMFihHX7LPmSWPIXOSW+7Mm2gRYHIR7nWorzYpr7aqDd0B5mZmSH5BAAAAAAALAAAAAAcADoAAAf/gH+Cg4SFhoeIiYqLjI2Oj5CRghoOF40JIH6am5o6Ghs0TiAgJwqICjZpFWoqKhIUsH5/Fxt5YXtHBSeICQsGJR0fMC8CFLKzvRN4XHNDiC4LeigdQThEEseCLnIQORM2LYcNJncP09XYhTxjATlTM4cIED4rDwweHCp+NzeDIH0jAsigYqiFmSJGItRjUEKNHwwYeggCYuHADwLZBs24kqFInQhRIDCo4KdAjB1CGtAAYGBECB6GgISokeFLG4hNzpSUAmUHBjFlMtSYgMAQhh8jamCx00AIhpMFpDBgAweAlyIZ6OgolMIKgR9akmDo1wNiARElGAwYEMFIERMO/wxVkRFASxeYgm6kWCCCgwcGD1b42ELm0AwkOX6gKcCCkB81OIJ0QPEgQgElhxwsIJFjjZsEjiUQiTzZwAIXiIYsITGGTwEwpv74oSDgBYwPHUq8sQH60AkrTLJYiFPA1GwBtW9zKPFkgwZELBIgAALKhgIdnDiB6L2IUmxJ4MOLH0++vPnz6NOrP0/JEiNM2Td52jDHCRBS3wsp2NAFln//slzgRBxppJHLLockUMAASSRRxoNlUICBIBcoyAWDdjhzCDQMCpCEABFOOIgLdozxgRdOhGNIA2aACKKDxqhTxlpQwGMIAl4IMIaLSRjDjz9pDPDBE1UURMMAO35YRtwxGPgk0R9AoDHGWhkJMgMUa+34hBchFpAFSipJsJYXeBEChBcDIBcDDzw8YUwBFMDhUx8ijFlUIRisxWAeDSjxEw9wThkDBUmsFcdWhKSwwwtrobFACn+UhQGcSYzxoI4C0KAiIVV4wSgAZeq1AKEfNiiAF4UZMkMcaErAGCEY0HbpGGNsgFlBZnjxwRmfwUrBpWUUugRqhwyRaxdp2FCKILMt6ayOGyTQjyEn8OCGBV3EYd0fsULo7JTOQScddXNYpwMGS6Sb7gILIMCdIt79MW0hP65n7734RhIIADs=") no-repeat left top;
+	background: url("https://habrahabr.ru/images/comments/bar/refresh.gif") no-repeat left top;
 	width: 28px;
 	margin: 2px;
 	height: 28px
 }
 #xpanel .refresh.loading {
-	background: url("http://blackbloodm.org/oldhabr/data/images/comments/bar/refresh-loading.gif") no-repeat left top
+	background: url("https://habrahabr.ru/images/comments/bar/refresh-loading.gif") no-repeat left top
 }
-#xpanel .new {
+#xpanel .new { 
 	text-decoration: none;
 	display: block;
 	color: #fff;
@@ -7126,6 +7120,36 @@ ul li a.showmore_items {
 	padding-bottom: 6px;
 	width: 34px;
 	text-align: center
+}
+#xpanel .next_new,#xpanel .prev_new {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	font-size: 12px;
+	padding: 0;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	width: 34px;
+	text-align: center
+}
+#xpanel .next_new,#xpanel .prev_new,#xpanel .new {
+	margin-top: 2px;
+	position: relative
+}
+#xpanel .next_new:before,#xpanel .prev_new:before,#xpanel .new:before {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: 1px;
+	right: 1px;
+	border-top: solid 1px #5c5c5c;
+	border-bottom: solid 1px #ddd;
+	width: 28px;
+	height: 0;
+	margin: 0 auto
+}
+#xpanel .refresh:hover,#xpanel .next_new:hover,#xpanel .prev_new:hover,#xpanel .new:hover {
+	background-color: rgba(0,0,0,0.1)
 }
 input, select, textarea {
 	font-family: "arial", sans-serif;
@@ -7471,7 +7495,7 @@ form .item.habracaptcha a span {
 	height: 5px;
 	width: 0%;
 	background: #aaa;
-	background: url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat-x 0 0
+	background: url(https://habrahabr.ru/images/form/loader_button.gif) repeat-x 0 0
 }
 .upload_form .state {
 	font-size: 9px;
@@ -7859,7 +7883,7 @@ form .item.habracaptcha a span {
 	box-shadow: none
 }
 .buttons button.loading {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
@@ -7867,7 +7891,7 @@ form .item.habracaptcha a span {
 	box-shadow: none
 }
 .buttons button.loading:active, .buttons button.loading:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
@@ -7875,7 +7899,7 @@ form .item.habracaptcha a span {
 	box-shadow: none
 }
 .buttons a.button.loading {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
@@ -7883,7 +7907,7 @@ form .item.habracaptcha a span {
 	box-shadow: none
 }
 .buttons a.button.loading:active, .buttons a.button.loading:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
@@ -7891,7 +7915,7 @@ form .item.habracaptcha a span {
 	box-shadow: none
 }
 .buttons input.loading {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
@@ -7899,7 +7923,7 @@ form .item.habracaptcha a span {
 	box-shadow: none
 }
 .buttons input.loading:active, .buttons input.loading:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
@@ -7907,7 +7931,7 @@ form .item.habracaptcha a span {
 	box-shadow: none
 }
 input.loading {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
@@ -8062,49 +8086,49 @@ input.loading {
 	box-shadow: none
 }
 .buttons button.loading.blue {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons button.loading.blue:active, .buttons button.loading.blue:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons a.button.loading.blue {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons a.button.loading.blue:active, .buttons a.button.loading.blue:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons input.loading.blue {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons input.loading.blue:active, .buttons input.loading.blue:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 input.loading {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
@@ -8258,49 +8282,49 @@ input.loading {
 	box-shadow: none
 }
 .buttons button.loading.green {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons button.loading.green:active, .buttons button.loading.green:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons a.button.loading.green {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons a.button.loading.green:active, .buttons a.button.loading.green:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons input.loading.green {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons input.loading.green:active, .buttons input.loading.green:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 input.loading {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
@@ -8454,49 +8478,49 @@ input.loading {
 	box-shadow: none
 }
 .buttons button.loading.orange {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons button.loading.orange:active, .buttons button.loading.orange:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons a.button.loading.orange {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons a.button.loading.orange:active, .buttons a.button.loading.orange:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons input.loading.orange {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 .buttons input.loading.orange:active, .buttons input.loading.orange:hover {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
 	box-shadow: none
 }
 input.loading {
-	background: #fafcfa url(http://blackbloodm.org/oldhabr/data/images/form/loader_button.gif) repeat !important;
+	background: #fafcfa url(https://habrahabr.ru/images/form/loader_button.gif) repeat !important;
 	color: #aaa !important;
 	border: solid 1px #eee !important;
 	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
@@ -8986,7 +9010,6 @@ code .diff .change {
 }
 .post .infopanel .twitter {
 	float: left;
-	margin-left: 20px;
 	margin-right: 5px;
 	padding: 5px 0;
 }
@@ -9050,13 +9073,13 @@ code .diff .change {
 .post .infopanel .share {
 	float: left;
 	overflow: hidden;
-	margin-left: 19px;
+	margin-left: 15px;
 }
 .post .infopanel .author {
 	position: relative;
 	float: left;
 	line-height: 28px;
-	margin-left: 10px;
+	margin-left: 22px;
 	margin-right: 25px;
 	font-weight: 700;
 	background: url("data:image/gif;base64,R0lGODlhDAAMAOYAANPe5Pz//4KkutDb4szY3/b+/5u5z/3//3KWrfn//8rk8naasYGkuszY4Mbg8qG+0dzv9tXg5sTg8t/o7vP8/4iqv9ft9NPe5qfD1Mfc56O/0YKlu+Lr8M3Z4JCwxuj2/Of0+eDz9+rw9Z68z8/n8sHe8sbT3Ju6zuDv96nE1Onw9Nbh6cvX39Hq89Hq8u77/srW3tbh54Kku8ba56TD1u37/vL8/vL8/9ft9ebu8+Ps8bzM1Ymsw7XR4Nnj6Yanvsnj8qrI2Or2/NTf5tvl68vY3+r3/HqdtNji6OXt8eDz+dLc477c7bDO3t7n7d7v9s3Z4dbs9N/y98Pd6PX+/8/b4f7//+Hp7tDo8vv//+fu84GjunKWro6uxHqctOfu9P///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAMAAwAAAeEgCJfg4RfWlo5KlpgjI2OOklWBwcBAVmXCQlXHAUFVBkGBjMUNzZOEy81IF2sXUZCH0QrDyhPGzICAkohUj4XHhoQKQsLGDgWUTFIJxUjUy0uWNIkQxE9W9gMDD9BCgpLAEBNXl5H5F40DlUDEkxc71wICDwlDQBQHQ0EBEUsJjswBgQCADs=") no-repeat scroll 0 7px transparent;
@@ -9532,27 +9555,27 @@ code .diff .change {
 	text-decoration: none
 }
 .post h1.title .flag_translation {
-	background: url(http://blackbloodm.org/oldhabr/data/images/flags.png?r=55) no-repeat right 0px;
+	background: url(https://habrahabr.ru/images/flags.png) no-repeat right 0px;
 	color: #5c7f95
 }
 .post h1.title .flag_sandbox {
-	background: url(http://blackbloodm.org/oldhabr/data/images/flags.png?r=55) no-repeat right -25px;
+	background: url(https://habrahabr.ru/images/flags.png) no-repeat right -25px;
 	color: #8c896b
 }
 .post h1.title .flag_solution {
-	background: url(http://blackbloodm.org/oldhabr/data/images/flags.png?r=55) no-repeat right -51px;
+	background: url(https://habrahabr.ru/images/flags.png) no-repeat right -51px;
 	color: #728449
 }
 .post h1.title .flag_recovery {
-	background: url(http://blackbloodm.org/oldhabr/data/images/flags.png?r=55) no-repeat right -77px;
+	background: url(https://habrahabr.ru/images/flags.png) no-repeat right -77px;
 	color: #a28546
 }
 .post h1.title .flag_tutorial {
-	background: url(http://blackbloodm.org/oldhabr/data/images/flags.png?r=55) no-repeat right -103px;
+	background: url(https://habrahabr.ru/images/flags.png) no-repeat right -103px;
 	color: #bb698f
 }
 .post h1.title .flag_rss_feed {
-	background: url(http://blackbloodm.org/oldhabr/data/images/flags.png?r=55) no-repeat right -77px;
+	background: url(https://habrahabr.ru/images/flags.png) no-repeat right -77px;
 	color: #a28546
 }
 .share {
@@ -9589,7 +9612,7 @@ code .diff .change {
 	content: "   ";
 	width: 16px;
 	height: 16px;
-	background: url(http://habrahabr.ru/images/ajax-loader.gif) no-repeat center center;
+	background: url(https://habrahabr.ru/images/ajax-loader.gif) no-repeat center center;
 	position: absolute;
 	right: 3px;
 	top: 5px;
@@ -9701,7 +9724,7 @@ code .diff .change {
 }
 .block_after_post .block.similar_posts .posts_list .post_item a.user_name {
 	color: #999;
-	background: url("http://habrahabr.ru/images/bg-user2.gif") no-repeat scroll 1px 50% transparent;
+	background: url("https://habrahabr.ru/images/bg-user2.gif") no-repeat scroll 1px 50% transparent;
 	padding-left: 17px
 }
 .block_after_post .block.similar_posts .posts_list .post_item a:hover.user_name {
@@ -9807,5 +9830,5 @@ code .diff .change {
 }
 .sidebar_right .block.top_hub_invest table.users .king {
 	padding-left: 30px;
-	background: url("http://habrahabr.ru/images/sidebar/top_hub_authors.king.png") no-repeat scroll 15px 10px transparent
+	background: url("https://habrahabr.ru/images/sidebar/top_hub_authors.king.png") no-repeat scroll 15px 10px transparent
 }
