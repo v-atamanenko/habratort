@@ -96,7 +96,7 @@ while(styles.length > 0) {
 }
 
 //Добавляем измененный старый стиль, удаляем меню слева, логотипы под футером и название страницы
-document.getElementsByTagName('head')[0].innerHTML += '<link type="text/css" rel="stylesheet" href="https://bbmm.su/oldhabr/data/mega5.css">';
+document.getElementsByTagName('head')[0].innerHTML += '<link type="text/css" rel="stylesheet" href="https://bbmm.su/oldhabr/data/mega5.css?'+Math.random()+'">';
 
 document.getElementById('navbar').style.display = 'none';
 document.getElementById('navbar_overlay').style.display = 'none';
@@ -122,6 +122,9 @@ for (;;) {
 
 //Oh, you wanna do this the hard way?! We'll do this the hard way!
 document.body.innerHTML = document.body.innerHTML.replace(/публикация/g, 'пост');
+document.body.innerHTML = document.body.innerHTML.replace(/2 публикации/g, '2 поста');
+document.body.innerHTML = document.body.innerHTML.replace(/3 публикации/g, '3 поста');
+document.body.innerHTML = document.body.innerHTML.replace(/4 публикации/g, '4 поста');
 document.body.innerHTML = document.body.innerHTML.replace(/публикации/g, 'посты');
 document.body.innerHTML = document.body.innerHTML.replace(/публикаций/g, 'постов');
 document.body.innerHTML = document.body.innerHTML.replace(/Публикация/g, 'Пост');

@@ -722,23 +722,23 @@ table.table tr th {
 	border-bottom: 1px dashed;
 	margin-left: 5px
 }
-.companies_list ul {
+.user_profile .companies_list ul {
 	overflow: hidden;
 	font-family: arial;
 	line-height: 18px;
 	font-size: 12px
 }
-.companies_list ul li {
+.user_profile .companies_list ul li {
 	float: left;
 	margin-right: 15px;
 	padding-left: 20px;
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFrUExURZ3B3f7//7DJ2eTt+sDX47XN3rzU6JCuwuft8dfm9Mjc6KvG2Pr8/Zu5zfL4/snc7aTB3Ze0yszd6dTk8/b9//T+//n7/O7z94Koy/j//67G1oyqvZ6929rm7tno8rzR4JKuwKjA0oerzsvb5oKqyUx2mMDY5djr9ZG62ZC52Or4/dn1/3OZtMnm+ICiua7J3G6UrYuswY+wxVeBoMDb63qgv9Do84SlvI+uw9fv/dTr9OP0+snf74uswoiovef2/JSyyL3U5MHf85zB3HGWrsnk88vm832ftYGiurvW6MHc7dbo8tvs9uz6/d3w+N3v+MLY5sjg84aw0HOYsXSbtXact9fq9VB6nG+Yt4qz1M7k8tTo9FR/nmyVsm2UrO/6/mePrfD8/1aAn+/7/3abs5G30YOku9Tn8snj84esycbf74iqwMPd7LzW5s7n85zB3dnt9ev4/Y+319Ht/p3C3uz6/vz//3mbsv///wgIqscAAAB5dFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wClVIrsAAAA0ElEQVR42mKoAAEeIX0hHjCLAUTIssoxyrHKQvni8o7x/llhhQHy4kC+mDK3t7pJTnSUjU86t7IYAxOXqGQZBEiKcjExSPGWgAEDEOTzSjFUCCb62lv7FViZ5bm5CgLNU3Rgk1CNSTIO51cyUgSZbyEinKATEhrLyGkLts+QWSbC0yswk08gG8y3Y5YxzXDSTeUTMAfz00SEVSyLtZ0ZOT2AfA52PTaJSA3NoiB+JXd2DgZpltLS0tzkUi01IM0izaBQDgQpwS4GcSCGAkCAAQDEsz0TMIua6gAAAABJRU5ErkJggg==) 0 60% no-repeat
 }
-.companies_list ul li.no_icon {
+.user_profile .companies_list ul li.no_icon {
 	background: none;
 	padding-left: 0
 }
-.companies_list ul li a.cross {
+.user_profile .companies_list ul li a.cross {
 	font-weight: bold
 }
 .friends_list ul {
@@ -763,26 +763,26 @@ table.table tr th {
 .friends_list ul li.banned a {
 	text-decoration: line-through
 }
-.hubs_list ul {
+.user_profile .hubs_list ul {
 	overflow: hidden;
 	font-family: arial;
 	line-height: 18px;
 	font-size: 12px
 }
-.hubs_list ul li {
+.user_profile .hubs_list ul li {
 	float: left;
 	margin-right: 15px;
 	padding-left: 20px;
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFQUExURfT9/8/o/N3w+LTP4J+/17PO4PP2+LjR47nZ8/j6+3OXrpu1yXGWrrDQ63KXrn2Zq16Ennybr6DD2Iyswb/d84qsw+v2/bbQ4Mba6vb///X+/3aXr2uPqN/v9t7r8q66wYamvZ290Z680KPA1oGkvdzw/KPA0uX1/KvG2XyetI6xyJmvvsHQ2H6gtNjt/GKDmcnf7MLLz+Dz+qXA0TdDTZ67zzE3PLHO3tDf6ODz/Oz7/vz//7bR44uwyd/w+K3O39To86fE2K3P453A1qWoq3uEjmWKo93k6dfn78PJzszW3c3m88HV5J23yqPB2Ze70ez6/lZqeo6rwY2xy5+90NLn8q7K3Ji1yuXm59Do9HKWrZKxxtLr/LXQ4Oz6/abI36XB1m+Uq5m80oKhuPT+/7PO33mRpavG18bj87rQ283c5NHq8+j4/f7//////////0ahpeUAAABwdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wC3YWLSAAAAsUlEQVR42mKQYGe3EY9lZmZN9cnPz2dgzYMBDRA3LC8XChJAXEdrhiwQYGAI4eTMZ1BLyYECblElLwZTK6ZMEGAylFeOF2QIV88GA0VfuYg0fYZoS+90INDyNzDScfVkEFbNAIIkIYeA0CCXfAYFPREWFlsnO0nZYH62fIbkGA4OXmOpXDFnATagvZqMjIx+FnGR9jyJIGfocvFFBXqYq7jJSIO4QJxvZqLtng8GAAEGAFBLNxR9F8JmAAAAAElFTkSuQmCC) 0 60% no-repeat
 }
-.hubs_list ul li.no_icon {
+.user_profile .hubs_list ul li.no_icon {
 	background: none;
 	padding-left: 0
 }
-.hubs_list ul li a.cross {
+.user_profile .hubs_list ul li a.cross {
 	font-weight: bold
 }
-.hubs_list ul li.banned a {
+.user_profile .hubs_list ul li.banned a {
 	text-decoration: line-through
 }
 ul li a.showmore_items {
@@ -6269,26 +6269,26 @@ input.loading {
 .friends_list ul li.banned a {
 	text-decoration: line-through
 }
-.hubs_list ul {
+.user_profile .hubs_list ul {
 	overflow: hidden;
 	font-family: arial;
 	line-height: 18px;
 	font-size: 12px
 }
-.hubs_list ul li {
+.user_profile .hubs_list ul li {
 	float: left;
 	margin-right: 15px;
 	padding-left: 20px;
 	background: url(http://habrahabr.ru/images/icos/blog-small-open.png) 0 60% no-repeat
 }
-.hubs_list ul li.no_icon {
+.user_profile .hubs_list ul li.no_icon {
 	background: none;
 	padding-left: 0
 }
-.hubs_list ul li a.cross {
+.user_profile .hubs_list ul li a.cross {
 	font-weight: bold
 }
-.hubs_list ul li.banned a {
+.user_profile .hubs_list ul li.banned a {
 	text-decoration: line-through
 }
 ul li a.showmore_items {
@@ -8772,55 +8772,7 @@ code .diff .change {
 .post .content img {
 	max-width: 100%;
 }
-.post .content .poll {
-}
-.post .content .poll table.answer {
-	width: auto;
-	border: 0;
-}
-.post .content .poll table.answer tr {
-	border: 0
-}
-.post .content .poll table.answer tr td {
-	padding-bottom: 15px;
-	border: 0;
-}
-.post .content .poll table.answer tr td.label {
-	padding-left: 5px;
-	font-size: 12px;
-}
-.post .content .poll dl {
-	overflow: hidden;
-	font-size: 12px;
-	margin-bottom: 10px;
-}
-.post .content .poll dl dt {
-	width: 50px;
-	margin-right: 10px;
-	float: left;
-	text-align: right;
-	color: #CCCCCC;
-}
-.post .content .poll dl dt strong {
-	font-weight: bold;
-	color: #404040;
-}
-.post .content .poll dl dd {
-	width: 580px;
-	float: left;
-}
-.post .content .poll dl dd div {
-	height: 5px;
-	background: #DADACD;
-}
-.post .content .poll dl dd div.winner {
-	background: #7FA0B0;
-}
-.post .content .poll .total {
-	color: #999999;
-	font-size: 12px;
-	padding-top: 10px;
-}
+.post .content .polling{margin:20px 0}.post .content .polling .poll{margin-bottom:20px}.post .content .polling .poll:last-child{margin-bottom:0}.post .content .poll .poll_title{font-weight:bold;font-size:12px;color:#404040}.post .content .poll table.answer{width:auto;border:0;margin:10px 0 17px}.post .content .poll table.answer tr{border:0}.post .content .poll table.answer tr td{border:0;padding:2px 0}.post .content .poll table.answer tr td.label{padding-left:5px;font-size:12px}.post .content .poll table.result{width:100%;font-size:12px;border:0;margin:10px 0 0}.post .content .poll table.result tr{border:0}.post .content .poll table.result tr td{border:0;padding:2px 0}.post .content .poll table.result tr td.percent{width:1%;color:#ccc;text-align:right;word-wrap:normal;word-break:normal;padding-right:10px}.post .content .poll table.result tr td strong{font-weight:bold;color:#404040}.post .content .poll table.result tr td .bar{height:5px;background:#dadacd}.post .content .poll table.result tr td .bar.winner{background:#7fa0b0}.post .content .poll .total{color:#999;font-size:11px;padding-top:10px;font-style:italic}
 .post ul.tags {
 	margin-bottom: 15px;
 	font-family: Verdana, sans-serif;
