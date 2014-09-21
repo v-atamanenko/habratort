@@ -106,6 +106,11 @@ if (document.getElementsByClassName('footer_logos')[0]) { document.getElementsBy
 
 if (document.getElementsByClassName('bottom_promo_blocks')[0]) {document.getElementsByClassName('bottom_promo_blocks')[0].style.display = 'none';}
 
+if (document.getElementsByClassName('block_after_post')[0]) {
+	document.getElementsByClassName('sidebar_right')[0].innerHTML = document.getElementsByClassName('sidebar_right')[0].innerHTML + document.getElementsByClassName('block_after_post')[0].innerHTML;
+	document.getElementsByClassName('block_after_post')[0].innerHTML = "";
+}
+
 if (document.getElementsByClassName('submit')[0]) { document.getElementsByClassName('submit')[0].disabled = false; }
 if (document.getElementsByClassName('preview')[0]) { document.getElementsByClassName('preview')[0].disabled = false; }
 if (document.getElementsByClassName('remove_button')[0]) { document.getElementsByClassName('remove_button')[0].disabled = false; }
