@@ -11239,13 +11239,13 @@ input.loading{
 
 @font-face{
 	font-family:"gt-icons";
-	src:url("http://geektimes.ru/fonts/gt-icons/gt-icons.eot?r1413203707");
-	src:url("http://geektimes.ru/fonts/gt-icons/gt-icons.eot?#iefix1413203707") format("embedded-opentype"),url("http://geektimes.ru/fonts/gt-icons/gt-icons.woff?r1413203707") format("woff"),url("http://geektimes.ru/fonts/gt-icons/gt-icons.ttf?r1413203707") format("truetype"),url("http://geektimes.ru/fonts/gt-icons/gt-icons.svg?r1413203707#gt-icons") format("svg");
+	src:url("http://habrahabr.ru/fonts/gt-icons/gt-icons.eot?r1413292519");
+	src:url("http://habrahabr.ru/fonts/gt-icons/gt-icons.eot?#iefix1413292519") format("embedded-opentype"),url("http://habrahabr.ru/fonts/gt-icons/gt-icons.woff?r1413292519") format("woff"),url("http://habrahabr.ru/fonts/gt-icons/gt-icons.ttf?r1413292519") format("truetype"),url("http://habrahabr.ru/fonts/gt-icons/gt-icons.svg?r1413292519#gt-icons") format("svg");
 	font-weight:normal;
 	font-style:normal
 }
 
-.icon{
+.g-icon{
 	font-family:"gt-icons";
 	speak:none;
 	font-style:normal;
@@ -11257,126 +11257,126 @@ input.loading{
 	-moz-osx-font-smoothing:grayscale
 }
 
-.icon-code:before{
+.g-icon-code:before{
 	content:"\e61e"
 }
 
-.icon-burger:before{
+.g-icon-burger:before{
 	content:"\e600"
 }
 
-.icon-alarm:before{
+.g-icon-alarm:before{
 	content:"\e601"
 }
 
-.icon-up-round:before{
+.g-icon-up-round:before{
 	content:"\e602"
 }
 
-.icon-lock:before{
+.g-icon-lock:before{
 	content:"\e603"
 }
 
-.icon-write:before{
+.g-icon-write:before{
 	content:"\e604"
 }
 
-.icon-gear:before{
+.g-icon-gear:before{
 	content:"\e605"
 }
 
-.icon-doc:before{
+.g-icon-doc:before{
 	content:"\e606"
 }
 
-.icon-lock2:before{
+.g-icon-lock2:before{
 	content:"\e607"
 }
 
-.icon-img:before{
+.g-icon-img:before{
 	content:"\e608"
 }
 
-.icon-docs:before{
+.g-icon-docs:before{
 	content:"\e609"
 }
 
-.icon-cinema:before{
+.g-icon-cinema:before{
 	content:"\e60a"
 }
 
-.icon-plus:before{
+.g-icon-plus:before{
 	content:"\e60b"
 }
 
-.icon-comment:before{
+.g-icon-comment:before{
 	content:"\e60c"
 }
 
-.icon-list:before{
+.g-icon-list:before{
 	content:"\e60d"
 }
 
-.icon-up:before{
+.g-icon-up:before{
 	content:"\e60e"
 }
 
-.icon-down:before{
+.g-icon-down:before{
 	content:"\e60f"
 }
 
-.icon-eye:before{
+.g-icon-eye:before{
 	content:"\e610"
 }
 
-.icon-star:before{
+.g-icon-star:before{
 	content:"\e611"
 }
 
-.icon-bold:before{
+.g-icon-bold:before{
 	content:"\e612"
 }
 
-.icon-italic:before{
+.g-icon-italic:before{
 	content:"\e613"
 }
 
-.icon-underline:before{
+.g-icon-underline:before{
 	content:"\e614"
 }
 
-.icon-strike:before{
+.g-icon-strike:before{
 	content:"\e615"
 }
 
-.icon-users:before{
+.g-icon-users:before{
 	content:"\e616"
 }
 
-.icon-cut:before{
+.g-icon-cut:before{
 	content:"\e617"
 }
 
-.icon-paragraph:before{
+.g-icon-paragraph:before{
 	content:"\e618"
 }
 
-.icon-video:before{
+.g-icon-video:before{
 	content:"\e619"
 }
 
-.icon-images:before{
+.g-icon-images:before{
 	content:"\e61a"
 }
 
-.icon-quote:before{
+.g-icon-quote:before{
 	content:"\e61b"
 }
 
-.icon-link:before{
+.g-icon-link:before{
 	content:"\e61c"
 }
 
-.icon-more:before{
+.g-icon-more:before{
 	content:"\e61d"
 }
