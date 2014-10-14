@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name        Хабраторт
+// @id          habratort
 // @description Возврат старого дизайна Хабрахабра
 // @author      bbmm
 // @version     1.0
