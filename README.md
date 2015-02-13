@@ -10,7 +10,7 @@
 
 ### Как мне это поставить себе? ###
 
-Если вы пользуетесь [Greasemonkey](http://www.greasespot.net/) (FireFox) или [Tampermonkey](http://tampermonkey.net/) (Chrome) вам достаточно перейти по ссылке [raw/habratort.user.js](https://bitbucket.org/bbmm/habratort/raw/habratort.user.js) и браузер вам сам предложит установить скрипт. Для других браузеров и аналогичных дополнений все должно работать также. Если нет - сообщите, пожалуйста, мне - через личку на Хабрахабре или в багтрекер.
+Если вы пользуетесь [Greasemonkey](http://www.greasespot.net/) (FireFox) или [Tampermonkey](http://tampermonkey.net/) (Chrome) вам достаточно перейти по ссылке [raw/habratort.user.js](https://bitbucket.org/bbmm/habratort/raw/8b99a6b8158b91606ead3c6a806f357cf9084582/habratort.user.js) и браузер вам сам предложит установить скрипт. Для других браузеров и аналогичных дополнений все должно работать также. Если нет - сообщите, пожалуйста, мне - через личку на Хабрахабре или в багтрекер.
 
 ### Я нашел баг! Куда писать, что делать? ###
 
