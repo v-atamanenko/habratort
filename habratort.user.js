@@ -93,7 +93,7 @@ document.getElementsByTagName('head')[0].innerHTML += '<style>body{background:#f
 document.getElementById('navbar').style.display = 'none';
 document.getElementById('navbar_overlay').style.display = 'none';
 
-if (document.getElementsByClassName('page_head')[0] && window.location.href.indexOf('conversations') < 0)) { document.getElementsByClassName('page_head')[0].style.display = 'none'; }
+if (document.getElementsByClassName('page_head')[0] && (window.location.href.indexOf('conversations') < 0)) { document.getElementsByClassName('page_head')[0].style.display = 'none'; }
 if (document.getElementsByClassName('menu special')[0]) { document.getElementsByClassName('menu special')[0].style.display = 'none'; }
 if (document.getElementsByClassName('footer_logos')[0]) { document.getElementsByClassName('footer_logos')[0].style.display = 'none'; }
 if (document.getElementsByClassName('bottom_promo_blocks')[0]) {document.getElementsByClassName('bottom_promo_blocks')[0].style.display = 'none';}
