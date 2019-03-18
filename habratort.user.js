@@ -41,7 +41,7 @@ function defineUser() {
       }
     }
 
-    let logout_raw = document.querySelector("a[href^='https://habr.com/logout/']").href.split("/");
+    let logout_raw = document.querySelector("a[href^='/logout/']").href.split("/");
 
     logout_raw.splice(-1);
     user.csrf = logout_raw.slice(-1)[0];
