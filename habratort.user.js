@@ -3,7 +3,7 @@
 // @id          habratort
 // @description Возврат старого дизайна Хабрахабра
 // @author      Vladimir Atamanenko
-// @version     3.0
+// @version     3.0.1
 // @include     http*://habr.com/*
 // @match       *://habr.com/*
 // ==/UserScript==
